@@ -14,3 +14,5 @@ this.x = x
 
 clearTimeout(timer);
 
+const crypto = require('crypto');
+var cipher = crypto.createCipheriv('aes-128-cbc', 'key', 'iv')
